@@ -1,0 +1,17 @@
+Using a function rand7() that returns an integer from 1 to 7 (inclusive) with uniform probability, implement a function rand5() that returns an integer from 1 to 5 (inclusive).
+
+def rand5():
+ind=49
+
+while ind > 40:
+  col=rand7()
+  row=rand7()
+  
+  ind=col+(row-1)*7
+
+return 1 + (ind-1) % 5   
+
+    
+    
+  
+  
