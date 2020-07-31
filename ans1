@@ -5,6 +5,7 @@ def rand5():
 
   while ind > 5:
     col=rand7()
+    row=1
     ind=col+(row-1)*7
 
 return 1 + (ind-1) % 5   
